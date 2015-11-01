@@ -34,4 +34,34 @@ $(document).ready( function() {
 
 
 
+function changeColor(colors){
+  var myElement = document.querySelector(".chalkfont");
+  myElement.style.color = colors;
+
+}
+$('#base').click(function(){
+    changeColor("#FCFEE3");
+
+});
+
+$('#pink').click(function(){
+    changeColor("#FFC3FF");
+
+});
+
+$('#blue').click(function(){
+    changeColor("#82ACFF");
+
+});
+$('#green').click(function(){
+    changeColor("#ADFFAD");
+
+});
+$('#gray').click(function(){
+    changeColor("#E4E4E4");
+
+});
+
+
+
 });

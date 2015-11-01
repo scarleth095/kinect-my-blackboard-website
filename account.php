@@ -10,6 +10,7 @@
     <link rel="icon" href="icon.png">
 
     <title>Kinect Your Blackboard</title>
+    <link href='https://fonts.googleapis.com/css?family=Orbitron|Source+Code+Pro|Special+Elite' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
 
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -155,6 +156,11 @@ Henry "Harry" Fox (30 September 1856 – on or after 30 August 1888) was an Engl
             <li><a href="#" id="downloadLink"> <img src="download.png" onmouseover="this.src='download2.png'"onmouseout="this.src='download.png'" style="width:50px;height:50px;border:0;"> </a></li>
             <li><a href="#" id="clear"> <img src="trash.png" onmouseover="this.src='trash2.png'"onmouseout="this.src='trash.png'" style="width:50px;height:50px;border:0;">  </a></li>
             <li><a href="#"> <img src="save.png" onmouseover="this.src='save2.png'"onmouseout="this.src='save.png'" style="width:50px;height:50px;border:0;">  </a></li>
+            <li><a href="#" id="base"> <img src="base.png" onmouseover="this.src='white.png'"onmouseout="this.src='base.png'" style="width:50px;height:50px;border:0;">  </a></li>
+            <li><a href="#" id="pink"> <img src="pink.png" onmouseover="this.src='white.png'"onmouseout="this.src='pink.png'" style="width:50px;height:50px;border:0;">  </a></li>
+            <li><a href="#" id="blue"> <img src="blue.png" onmouseover="this.src='white.png'"onmouseout="this.src='blue.png'" style="width:50px;height:50px;border:0;">  </a></li>
+            <li><a href="#" id="green"> <img src="green.png" onmouseover="this.src='white.png'"onmouseout="this.src='green.png'" style="width:50px;height:50px;border:0;">  </a></li>
+            <li><a href="#" id="gray"> <img src="gray.png" onmouseover="this.src='white.png'"onmouseout="this.src='gray.png'" style="width:50px;height:50px;border:0;">  </a></li>
 
 
 

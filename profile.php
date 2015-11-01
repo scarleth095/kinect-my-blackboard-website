@@ -13,6 +13,7 @@
 
 
 <!--text fonts -->
+ <link href='https://fonts.googleapis.com/css?family=Orbitron|Source+Code+Pro|Special+Elite' rel='stylesheet' type='text/css'>
 
 	<link href='https://fonts.googleapis.com/css?family=Fredericka+the+Great' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Patrick+Hand+SC' rel='stylesheet' type='text/css'>
@@ -50,6 +51,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+          <a class="navbar-brand" href="#"><img src="icon.png" style="width:30px;height:30px; border:0"></a>
           <a class="navbar-brand" href="#"> <img src="logo.png" style="width:500px;height:25px;border:0;"></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
@@ -67,15 +69,29 @@
 
 	<h3 class="chalkfont"> Saved files</h3>
 	<div id="padfile"> <!-- saved files -->
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p> </div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
-		<div class="savedfiles"> <p class="padmid"><a  href="account.php">create new file</a></p></div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+ 		</a></p></div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+		</a></p> </div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+ 		</a></p></div>
+		
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+		</a></p> </div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+ 		</a></p></div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+		</a></p> </div>
+
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+ 		</a></p></div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+		</a></p> </div>
+		<div class="savedfiles"> <p class="padmid"><a  href="account.php"><img src="newfile.png" onmouseover="this.src='lightnewfile.png'"onmouseout="this.src='newfile.png'" style="width:80px;height:80px;border:0;"> 
+ 		</a></p></div>
+		
+
+		
 
 
 
