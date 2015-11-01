@@ -1,6 +1,15 @@
 @font-face { font-family: CHALK; src: url('AngryChalk.ttf'); } 
 @font-face { font-family: CHALK; font-weight: bold; src: url('AngryChalk.ttf');}
 
+
+
+#pad2{
+	padding-top: 2px;
+	text-align: center;
+	float: center;
+	vertical-align: center;
+	font-family: 'Orbitron',cursive;
+}
 .copyright{
 	font-weight: bold;
 	font-family: serif;

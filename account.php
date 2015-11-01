@@ -78,7 +78,7 @@
 
 <div class= "chalkfont" id="main" >
   <span> <font size="30px">
-Henry "Harry" Fox (30 September 1856 – on or after 30 August 1888) was an English gentleman.
+Turn on kinect, and begin recording.
 
 
 
@@ -148,11 +148,11 @@ Henry "Harry" Fox (30 September 1856 – on or after 30 August 1888) was an Engl
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html"><font class="fred" size="5px">logout</font></a>
+          <a class="navbar-brand" href="index.html"><font id="pad2"size="6px">logout</font></a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#" id="start"> <img src="start.png" onclick="this.src='pause.png'"ondblclick="this.src='start.png'" style="width:50px;height:50px;border:0;"> </a></li>
+            <li><a href="#"> <img id="start" src='start.png' style="width:50px;height:50px;border:0;"> </a></li>
             <li><a href="#" id="downloadLink"> <img src="download.png" onmouseover="this.src='download2.png'"onmouseout="this.src='download.png'" style="width:50px;height:50px;border:0;"> </a></li>
             <li><a href="#" id="clear"> <img src="trash.png" onmouseover="this.src='trash2.png'"onmouseout="this.src='trash.png'" style="width:50px;height:50px;border:0;">  </a></li>
             <li><a href="#"> <img src="save.png" onmouseover="this.src='save2.png'"onmouseout="this.src='save.png'" style="width:50px;height:50px;border:0;">  </a></li>

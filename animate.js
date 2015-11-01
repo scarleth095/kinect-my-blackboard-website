@@ -13,7 +13,7 @@ $(document).ready( function() {
   var fileName =  'content.txt'; 
 
   $('#downloadLink').click(function(){
-    
+
     downloadInnerHtml(fileName, 'main','text/html');
   });
 
@@ -21,7 +21,7 @@ $(document).ready( function() {
 
 
 
-   function clearme(elId) {
+  function clearme(elId) {
     var text = document.getElementById(elId);
     text.innerHTML=" ";
   }
@@ -34,33 +34,77 @@ $(document).ready( function() {
 
 
 
-function changeColor(colors){
-  var myElement = document.querySelector(".chalkfont");
-  myElement.style.color = colors;
+  function changeColor(colors){
+    var myElement = document.querySelector(".chalkfont");
+    myElement.style.color = colors;
 
-}
-$('#base').click(function(){
+  }
+  $('#base').click(function(){
     changeColor("#FCFEE3");
 
-});
+  });
 
-$('#pink').click(function(){
+  $('#pink').click(function(){
     changeColor("#FFC3FF");
 
-});
+  });
 
-$('#blue').click(function(){
+  $('#blue').click(function(){
     changeColor("#82ACFF");
 
-});
-$('#green').click(function(){
+  });
+  $('#green').click(function(){
     changeColor("#ADFFAD");
 
-});
-$('#gray').click(function(){
-    changeColor("#E4E4E4");
+  });
 
-});
+  $('#gray').click(function(){
+    changeColor("#E4E4E4");
+  });
+
+  var on = false;
+  var wasClicked = false;
+
+  function dynamodiv(on){
+     if (on){
+      changeColor("#82ACFF");
+      
+    } 
+    else {
+      changeColor("#E4E4E4");
+    }
+    //run code on div right
+    //run code on div left
+
+  }
+
+
+
+$('#start').click(function() {
+        if (!wasClicked) {
+            wasClicked = true;
+            return;
+        }
+        if ($(this).attr("src") == 'pause.png') {
+            $(this).attr("src", 'start.png');
+        } else {
+            $(this).attr("src", 'pause.png');
+        }
+        on=!on;
+   
+        dynamodiv(on);
+    });
+
+
+
+
+ 
+   
+
+
+
+
+
 
 
 
